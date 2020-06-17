@@ -10,6 +10,7 @@ image-scraper/
   |- images
     |- <the folder where the images reside after running the imgscraper.py file with the .csv file in place>
   |- imgscraper.py
+  |- rename_files.py
 ```
 ### _Steps to pre-make .csv file containing links:_
   
@@ -35,3 +36,6 @@ image-scraper/
     - Check the 'Do not show' checkbox
     - At 'Step 3', click 'Extract'
     - Click 'Download Result'
+
+# Rename Files
+The images scraped might not have a standardised labels, hence by executing rename_files.py, all the images scraped will be renamed and have a standardised naming format. The images will be renamed and place in the same folder as the initial state
