@@ -1,6 +1,6 @@
 # Image Scraper
 
-### _A rather conventional way of scraping images from search engines._
+_A rather conventional way of scraping images from search engines._
 
 ### _File Structure_
 ```
