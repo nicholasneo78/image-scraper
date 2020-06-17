@@ -5,33 +5,6 @@ Created on Sun May 31 20:21:26 2020
 @author: NicNeo
 """
 
-'''
-    Steps to pre-make csv file containing links:
-        
-        Scroll down the webpage as much as possible if scraping an infinite page
-        
-        To inspect the webpage
-            -- Select the top most element you want to copy. (To copy all, select <html>)
-            -- Right click.
-            -- Select Edit as HTML
-            -- New sub-window opens up with the HTML text.
-            -- Press CTRL+A/CTRL+C and copy the entire text field to a different window.
-        
-        To reformat the html script
-            -- Go to https://webformatter.com/html and CTRL+V the code
-            -- Format the code
-            -- Copy the formatted code
-        
-        To retrive urls and save it into a .csv file with all the .jpg entries 
-            -- Go to https://www.convertcsv.com/url-extractor.htm
-            -- CTRL+V the code into the textbox in option 3
-            -- At 'Step 2', check the 'url contains this string' box
-            -- Type '.jpg' into the checkbox 
-            -- Check the 'Do not show' checkbox
-            -- At 'Step 3', click 'Extract'
-            -- Click 'Download Result'
-        
-'''
 # --------- IMPORT LIBRARIES ----------
 import pandas as pd
 import urllib.request
@@ -43,7 +16,7 @@ import os
 COUNT = 0
 
 # NAME OF THE CLASSIFIER
-MAIN_NAME = 'rose'
+MAIN_NAME = 'cat'
 
 # SUB-FOLDER NAME - CHANGE IF FILE_PATH NAME IS DIFFERENT FROM MAIN_NAME
 SUB_PATH = MAIN_NAME
