@@ -17,7 +17,7 @@ image-scraper/
   - Scroll down the webpage as much as possible if scraping an infinite page
   
   - To inspect the webpage
-    - Select the top most element you want to copy. (To copy all, select <html>)
+    - Select the top most element you want to copy. (To copy all, hover to html at the top of the script)
     - Right click.
     - Select Edit as HTML
     - New sub-window opens up with the HTML text.
@@ -38,4 +38,4 @@ image-scraper/
     - Click 'Download Result'
 
 # Rename Files
-The images scraped might not have a standardised labels, hence by executing rename_files.py, all the images scraped will be renamed and have a standardised naming format. The images will be renamed and place in the same folder as the initial state
+The images scraped might not have a standardised labels, hence by executing rename_files.py, all the images scraped will be renamed and have a standardised naming format. The images will be renamed and place in the same folder as the initial state.
